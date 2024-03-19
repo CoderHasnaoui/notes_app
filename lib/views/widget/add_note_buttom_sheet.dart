@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:note_app/views/constants.dart';
+import 'package:note_app/views/widget/custom_buttom.dart';
 
 import 'custom_text_field.dart';
 
@@ -16,7 +17,7 @@ class AddButtomSheet extends StatelessWidget {
             SizedBox(
               height: 36,
             ),
-            CustomTextField(hint: 'titlle'),
+            CustomTextField(hint: 'titlle' , ),
             SizedBox(
               height: 16,
             ),
